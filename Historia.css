@@ -1,0 +1,45 @@
+/*Main*/
+main {
+    background-color: #58585828;
+    padding: 20px;
+}
+
+main .Conteudo {
+    border: 1px solid black;
+    max-width: 1000px;
+    /* controla a largura máxima */
+    margin: 30px auto 200px auto;
+    /* centraliza com margem inferior pro footer */
+    padding: 20px;
+    /* espaço interno entre a borda e o conteúdo */
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #ffffff;
+    /* opcional: destaque com fundo branco */
+}
+
+.ImagemDireitos {
+    width: 100%;
+    /* Faz a imagem ocupar toda a largura do container */
+    max-width: 600px;
+    /* Limita a largura máxima da imagem */
+    height: auto;
+    /* Mantém a proporção original */
+    display: block;
+    /* Remove espaços extras embaixo da imagem */
+    margin: 30px auto;
+    /* Centraliza a imagem horizontalmente */
+    border-radius: 12px;
+    /* Deixa os cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Sombra sutil */
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
+}
