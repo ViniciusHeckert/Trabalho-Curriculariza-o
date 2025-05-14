@@ -39,12 +39,12 @@ header {
   height: 50px;
   background-color: white;
   border: 0;
-  font-size: 32px;  /* aumenta um pouco */
-  line-height: 50px; /* centraliza verticalmente */
+  font-size: 32px;  
+  line-height: 50px; 
   color: rgb(43, 43, 43);
   cursor: pointer;
   border-radius: 50%;
-  text-align: center; /* centraliza horizontalmente */
+  text-align: center; 
   transition: all 0.2s ease;
 }
 
