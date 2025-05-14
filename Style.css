@@ -24,7 +24,6 @@ header {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: rgb(255, 83, 83);
   object-fit: cover;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
