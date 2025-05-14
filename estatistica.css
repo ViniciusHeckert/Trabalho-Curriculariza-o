@@ -1,0 +1,43 @@
+main {
+    background-color: rgba(88, 88, 88, 0.15);
+    padding: 30px 20px;
+}
+
+.conteudo {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.imagem-estatistica {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.conteudo p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
