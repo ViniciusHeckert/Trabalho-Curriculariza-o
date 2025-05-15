@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gato.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="divmenu">
+                <a href="menu.html">
+                    <button class="menu"><b>☰</b></button>
+                </a>
+            </div>
+        </nav>
+        <div class="divlogo">
+            <a href="index.html">
+                <img class="logo" src="assets/imagens/símbolo acapra.png" alt="Logo acapra">
+            </a>
+        </div>
+        <div class="divajuda">
+            <button class="ajuda"><b>Ajuda</b></button>
+        </div>
+    </header>
+    <div class="tituloadocao">
+        <h2>FAÇA JÁ SUA ADOÇÃO</h2>
+    </div>
+    <main>
+
+        <div class="cards">
+            <img onclick="appendvalue('difusor')" class="imgdogs" src="assets/imagens/gatos/DIFUSOR.jpg" alt="">
+            <div onclick="mostrarPopup(0)" class="nome">
+                <p class="nomedogs"><b>DIFUSOR</b></p>
+                <p class="simbolomacho"><b>♂</b></p>
+            </div>
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfnidAFGv1BBlNeC8PDzZtgIgw3_TZFqlM7EIRDUW40s8B2TA/viewform">
+                <button class="adotar">Quero Adotar</button>
+            </a>
+        </div>
+        <div class="cards">
+            <img onclick="appendvalue('luzia')" class="imgdogs" src="assets/imagens/gatos/LUZIA.jpg" alt="">
+            <div class="nome">
+                <p class="nomedogs"><b>LUZIA</b></p>
+                <p class="simbolo"><b>♀</b></p>
+            </div>
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfnidAFGv1BBlNeC8PDzZtgIgw3_TZFqlM7EIRDUW40s8B2TA/viewform">
+                <button class="adotar">Quero Adotar</button>
+            </a>
+        </div>
+        <div class="cards">
+            <img onclick="appendvalue('mimi')" class="imgdogs" src="assets/imagens/gatos/MIMI.jpg" alt="">
+            <div class="nome">
+                <p class="nomedogs"><b>MIMI</b></p>
+                <p class="simbolo"><b>♀</b></p>
+            </div>
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfnidAFGv1BBlNeC8PDzZtgIgw3_TZFqlM7EIRDUW40s8B2TA/viewform">
+                <button class="adotar">Quero Adotar</button>
+            </a>
+        </div>
+        <div class="cards">
+            <img onclick="appendvalue('barto')" class="imgdogs" src="assets/imagens/gatos/BARTÔ.jpg" alt="">
+            <div class="nome">
+                <p class="nomedogs"><b>BARTÔ</b></p>
+                <p class="simbolomacho"><b>♂</b></p>
+            </div>
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfnidAFGv1BBlNeC8PDzZtgIgw3_TZFqlM7EIRDUW40s8B2TA/viewform">
+                <button class="adotar">Quero Adotar</button>
+            </a>
+
+
+            <div id="difusor" class="popup">
+                <img class="imgpopup" src="assets/imagens/gatos/DIFUSOR.jpg" alt="">
+                <div class="textospopup">
+                    <div class="textospopup2">
+                        <div class="nomesimbolo">
+                            <p class="nomepopup"><b>DIFUSOR</b></p>
+                            <p class="simbolopopupmacho"><b>♂</b></p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="esquerda">
+                            <div class="carac">
+                                <p class="caracteristica">Peso</p>
+                                <p class="valor">6 kg</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Espécie</p>
+                                <p class="valor">GATO</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Raça</p>
+                                <p class="valor">???</p>
+                            </div>
+                        </div>
+                        <div class="direita">
+                            <div class="carac">
+                                <p class="caracteristica">Idade aproximada</p>
+                                <p class="valor">6 mêses</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Porte</p>
+                                <p class="valor">???</p>
+                            </div>
+
+                            <div class="carac">
+                                <p class="caracteristica">Castrado/Vacinado</p>
+                                <p class="valor">Sim/Sim</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sobre">
+                        <p class="caracteristica">Sobre o pet</p>
+                        <p class="valor">Difusor é um gatinho macho, que foi encontrado em uma fábrica de peças
+                            automotivas (por isso o nome), chegou em estado caquético, com extrema magreza. Aos
+                            poucos foi se recuperando e hoje é um jovem 100% saudável e cheio de amor!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="luzia" class="popup">
+                <img class="imgpopup" src="assets/imagens/gatos/LUZIA.jpg" alt="">
+                <div class="textospopup">
+                    <div class="textospopup2">
+                        <div class="nomesimbolo">
+                            <p class="nomepopup"><b>LUZIA</b></p>
+                            <p class="simbolopopup"><b>♀</b></p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="esquerda">
+                            <div class="carac">
+                                <p class="caracteristica">Peso</p>
+                                <p class="valor">???</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Espécie</p>
+                                <p class="valor">GATO</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Raça</p>
+                                <p class="valor">???</p>
+                            </div>
+                        </div>
+                        <div class="direita">
+                            <div class="carac">
+                                <p class="caracteristica">Idade aproximada</p>
+                                <p class="valor">3 ANOS</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Porte</p>
+                                <p class="valor">???</p>
+                            </div>
+
+                            <div class="carac">
+                                <p class="caracteristica">Castrado/Vacinado</p>
+                                <p class="valor">Não/Sim</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sobre">
+                        <p class="caracteristica">Sobre o pet</p>
+                        <p class="valor">Luzia é uma gatinha curiosa e brincalhona, sempre explorando os lugares ao seu
+                            redor.
+                            Gosta de perseguir sombras, subir em locais altos e cochilar onde o sol bate. Quando chove,
+                            observa as
+                            gotas escorrendo pela janela. Mesmo tendo apenas um olho, isso não a impede de viver feliz e
+                            cheia de energia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mimi" class="popup">
+                <img class="imgpopup" src="assets/imagens/gatos/MIMI.jpg" alt="">
+                <div class="textospopup">
+                    <div class="textospopup2">
+                        <div class="nomesimbolo">
+                            <p class="nomepopup"><b>MIMI</b></p>
+                            <p class="simbolopopup"><b>♀</b></p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="esquerda">
+                            <div class="carac">
+                                <p class="caracteristica">Peso</p>
+                                <p class="valor">5 kg</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Espécie</p>
+                                <p class="valor">GATO</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Raça</p>
+                                <p class="valor">???</p>
+                            </div>
+                        </div>
+                        <div class="direita">
+                            <div class="carac">
+                                <p class="caracteristica">Idade aproximada</p>
+                                <p class="valor">9 MÊSES</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Porte</p>
+                                <p class="valor">???</p>
+                            </div>
+
+                            <div class="carac">
+                                <p class="caracteristica">Castrado/Vacinado</p>
+                                <p class="valor">Sim/Sim</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sobre">
+                        <p class="caracteristica">Sobre o pet</p>
+                        <p class="valor">Mimi é uma gata curiosa e independente. Adora explorar os cantos da casa, subir
+                            em prateleiras e observar tudo do alto. Gosta de cochilar ao sol e, quando está animada,
+                            corre pela casa como se estivesse em uma grande aventura. Apesar de ser um pouco reservada
+                            no começo, quando confia em alguém, se transforma em uma companheira carinhosa e ronronante.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="barto" class="popup">
+                <img class="imgpopup" src="assets/imagens/gatos/BARTÔ.jpg" alt="">
+                <div class="textospopup">
+                    <div class="textospopup2">
+                        <div class="nomesimbolo">
+                            <p class="nomepopup"><b>BARTÔ</b></p>
+                            <p class="simbolopopupmacho"><b>♂</b></p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="esquerda">
+                            <div class="carac">
+                                <p class="caracteristica">Peso</p>
+                                <p class="valor">???</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Espécie</p>
+                                <p class="valor">GATO</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Raça</p>
+                                <p class="valor">???</p>
+                            </div>
+                        </div>
+                        <div class="direita">
+                            <div class="carac">
+                                <p class="caracteristica">Idade aproximada</p>
+                                <p class="valor">6 MESES</p>
+                            </div>
+                            <div class="carac">
+                                <p class="caracteristica">Porte</p>
+                                <p class="valor">???</p>
+                            </div>
+
+                            <div class="carac">
+                                <p class="caracteristica">Castrado/Vacinado</p>
+                                <p class="valor">Não/Sim</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sobre">
+                        <p class="caracteristica">Sobre o pet</p>
+                        <p class="valor">Barto é um gato tranquilo e amoroso. Ele gosta de se enroscar em cobertores
+                            macios e cochilar por horas. Sempre procura um colo quentinho para descansar e aprecia
+                            longas sessões de carinho. Adora brincar com bolinhas e caçar objetos invisíveis pela casa.
+                            Mesmo sendo preguiçoso na maior parte do tempo, sempre aparece quando há comida por perto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <p onclick="fechar()" id="fecharpopup" class="fecharpopup">X</p>
+            <div id="malha" class="malha"></div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="assets/imagens/símbolo acapra.png" alt="Logo Acapra" class="logo">
+            <p>
+                A ACAPRA é uma ONG em Brusque dedicada ao resgate, cuidado e adoção de cães.
+                Nossa missão é dar uma nova chance a animais abandonados, garantindo amor e proteção.
+            </p>
+        </div>
+
+        <div class="footer-right">
+            <h3>Como Ajudar?</h3>
+            <ul>
+                <li><a href="escolha.html">Quero Adotar</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/acaprabrusquesc/">Redes sociais</a> </li>
+                <li><a href="Cadastro.html">Cadastro</a></li>
+                <li>Doe através no pix: 03.772.251.0001-82</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

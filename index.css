@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.organizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
+
+.adoteUmPet {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.adoteUmPet .titulomenu {
+    color: red;
+    margin-bottom: 30px;
+    width: 450px;
+    font-size: 60px;
+}
+
+.adoteUmPet .adotanim {
+    width: 300px;
+    background-color: red;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border: 3px solid black;
+}
+
+main img {
+    width: 500px;
+}
+
+.conhecer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.conhecer h2 {
+    color: red;
+    margin-bottom: 30px;
+    width: 500px;
+    font-size: 40px;
+
+}
+
+.conhecer p {
+    width: 500px;
+}
+
+.adotanim:hover {
+    background-color: rgb(235, 0, 0);
+    transform: scale(1.1);
+}
