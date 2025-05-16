@@ -17,7 +17,7 @@ main {
 }
 
 .adoteUmPet .titulomenu {
-    color: red;
+    color:  rgb(128, 99, 236);
     margin-bottom: 30px;
     width: 450px;
     font-size: 60px;
@@ -25,7 +25,7 @@ main {
 
 .adoteUmPet .adotanim {
     width: 300px;
-    background-color: red;
+    background-color: rgb(128, 99, 236);
     height: 80px;
     border-radius: 20px;
     font-size: 25px;
@@ -47,7 +47,7 @@ main img {
 }
 
 .conhecer h2 {
-    color: red;
+    color:  rgb(128, 99, 236);
     margin-bottom: 30px;
     width: 500px;
     font-size: 40px;
@@ -59,6 +59,6 @@ main img {
 }
 
 .adotanim:hover {
-    background-color: rgb(235, 0, 0);
+    background-color:  rgb(79, 34, 241);
     transform: scale(1.1);
 }
