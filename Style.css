@@ -23,7 +23,7 @@ header {
 .logo {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  border-radius: 20%;
   object-fit: cover;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
@@ -56,7 +56,7 @@ header {
 
 .ajuda {
   padding: 8px 16px;
-  background-color: rgb(255, 83, 83);
+  background-color:  rgb(128, 99, 236);
   color: white;
   border: none;
   border-radius: 20px;
@@ -67,7 +67,7 @@ header {
 }
 
 .ajuda:hover {
-  background-color: rgb(220, 60, 60);
+  background-color:  rgb(79, 34, 241);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
 }
@@ -78,7 +78,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: rgb(255, 83, 83);
+  background-color:  rgb(128, 99, 236);
   color: white;
   padding: 40px 10%;
   font-family: 'Arial', sans-serif;
