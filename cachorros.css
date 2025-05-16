@@ -12,7 +12,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 66, 66);
+    background-color:  rgb(79, 34, 241);
     height: 80px;
     margin-bottom: 100px;
 }
@@ -102,7 +102,7 @@ main {
 
 .simbolopopup {
     font-size: 30px;
-    color: rgb(255, 112, 136);
+    color:  rgb(79, 34, 241);
 }
 
 .textospopup {
