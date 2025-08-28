@@ -53,24 +53,6 @@ header {
   transform: scale(1.05);
 }
 
-.ajuda {
-  padding: 8px 16px;
-  background-color:  rgb(128, 99, 236);
-  color: white;
-  border: none;
-  border-radius: 20px;
-  font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.ajuda:hover {
-  background-color:  rgb(79, 34, 241);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  transform: translateY(-2px);
-}
-
    /*FOOTER*/ 
 
 .footer {
